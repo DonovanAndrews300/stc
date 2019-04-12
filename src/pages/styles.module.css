@@ -1,0 +1,23 @@
+@import '../css/variables.css';
+
+.intro {
+  background: var(--primary);
+  color: var(--lighttxt);
+}
+
+.intro h1 {
+  font-size: 2.75rem;
+}
+
+.link {
+  border-bottom: 3px solid var(--lighttxt);
+}
+
+@media (--small) {
+  .intro h1 {
+    font-size: 1.7142rem;
+  }
+  .link {
+    border-width: 2px;
+  }
+}

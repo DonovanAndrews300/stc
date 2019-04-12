@@ -1,0 +1,22 @@
+:root {
+  /* Layout */
+  --wrapperWidth: 1200px;
+  --headerHeight: 48px;
+  --gutter: 20px;
+  --columnCount: 12;
+
+  /* Colors */
+  --primary:#192e5b;
+  --secondary:#1d65a6;
+  --tertiary:#72a2c0;
+  --lighttxt:#ffffff;
+  --darktxt:#040c0e;
+
+  /* Z Index Scale */
+  --zIndexHeader: 2;
+  --zIndexMenu: 3;
+  --zIndexHamburger: 4;
+}
+
+@custom-media --small (max-width: 767px);
+@custom-media --medium (max-width: 1023px);
