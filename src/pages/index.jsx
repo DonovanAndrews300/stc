@@ -1,10 +1,8 @@
 import React from 'react';
 import Link from 'gatsby-link';
-
 import Fullscreen from '../components/fullscreen';
 import Meta from '../components/meta';
 import Wrapper from '../components/wrapper';
-
 import styles from './styles.module.css';
 
 const Index = ({ location }) => (
@@ -14,11 +12,11 @@ const Index = ({ location }) => (
       <Wrapper>
         <h1>
           See The Color
-          <br />
-          <br />
+          <br/>
+          <br/>
           Here to diversify.
-          <br />
-          <br />
+          <br/>
+          <br/>
           Learn more about us <Link className={styles.link} to="/about">here</Link>.
         </h1>
       </Wrapper>

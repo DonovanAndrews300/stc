@@ -7,29 +7,28 @@
   
 }
 
+
+
+.profile {
+  font-size: 1rem;
+  position: relative;
+  
+}
+
 .intro {
-  width: calc(7 / var(--columnCount) * 100%);
+  width: calc(10 / var(--columnCount) * 100%);
   padding-right: var(--gutter);
   font-size: 1.125rem;
   line-height: 1.7;
   padding-right: calc(1 / var(--columnCount) * 100%);
+  padding-bottom: calc(1 / var(--columnCount) * 100%);
 }
 
-.skills {
-  width: calc(5 / var(--columnCount) * 100%);
-  font-size: 1rem;
-  padding-left: calc(1 / var(--columnCount) * 100%);
-  position: relative;
-  align-items: center;
-  display: flex;
-}
-
-.skills:before {
+.profile:before {
+  display:flex;
   content: "";
-  position: absolute;
   height: 75%;
   width: 4px;
-  display: block;
   left: 0;
   top: 12.5%;
   background: black;
@@ -60,7 +59,7 @@
     margin-bottom: 3rem;
   }
 
-  .intro, .skills {
+  .intro, .profile {
     width: calc(10 / var(--columnCount) * 100%);
     padding: 0;
   }
@@ -69,11 +68,11 @@
     font-size: 1.1428rem;
   }
 
-  .skills {
+  .profile {
     margin-top: 3rem;
   }
 
-  .skills:before {
+  .profile:before {
     display: none;
   }
 

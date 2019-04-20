@@ -24,6 +24,9 @@ const Menu = ({ active, onNavClick }) => {
               <Link {...linkProps} to="/about">About</Link>
             </li>
             <li className={styles.item}>
+              <Link {...linkProps} to="/services">Services</Link>
+            </li>
+            <li className={styles.item}>
               <Link {...linkProps} to="/contact">Contact</Link>
             </li>
           </ul>

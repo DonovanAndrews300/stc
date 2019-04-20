@@ -1,67 +1,58 @@
 import React from 'react';
-import Link from 'gatsby-link';
-
 import ContentPage from '../../components/content-page';
 import Meta from '../../components/meta';
-import OutboundLink from '../../components/outbound-link';
 import Wrapper from '../../components/wrapper';
+import sylviaSrc from './img/sylvia.jpg';
+import scottSrc from './img/scott.jpg';
+import jamesSrc from './img/james.png'
 
-import ahmSrc from './img/ahm.png';
-import inlightSrc from './img/inlight.png';
-import lighthouseSrc from './img/lighthouse.png';
-
-
+import Link from 'gatsby-link';
 import styles from './styles.module.css';
 
 const About = ({ location }) => (
   <ContentPage className={styles.about}>
     <Meta title="About" location={location} />
     <Wrapper>
-      <div className={styles.about}>
         <section className={styles.intro}>
         <h1>About</h1>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam placerat in nisi eu blandit. Curabitur aliquet mauris porta magna sodales vulputate. Suspendisse quis egestas libero. Sed porta pharetra enim sit amet elementum. Nulla facilisi. Donec vel viverra mauris. Phasellus a gravida est. Sed iaculis, tortor id tincidunt pharetra, orci sem egestas odio, nec semper elit eros ac mauris. Curabitur eget dignissim ipsum, in molestie nisi. In accumsan magna magna, eu auctor augue dapibus eget. Morbi id odio et purus bibendum iaculis. Nunc dui ligula, dignissim quis fringilla quis, scelerisque sit amet est. Nulla finibus pellentesque justo at ornare. Vivamus non nunc non tortor porta congue. Fusce ullamcorper maximus mauris ut eleifend.
+        <h3>Who we are:</h3>
+<p>See The Color Consulting LLC, is a diversity and inclusion consulting group specializing in strategic planning, training, public speaking, management, and recruitment. We serve youth development organizations in the US and abroad. STC helps organizations create positive diversity through community partnerships, targeted recruiting, and creative training. Our method is thorough and leaves your organization with sustainable practices to continue to diversify your staff and customer base.</p> 
 
+<h3> Our Mission:</h3>
+<p>We  are committed to working with our clients to develop solutions for their diversity needs. We understand that creating programs that work for many different demographics is difficult. Our team wants to use our many years of experience in the camp and childcare industry to make your team more inclusive to all!</p>
 
-        </p>
-        <p>
-        Suspendisse tempor sit amet felis ac lacinia. Curabitur tellus purus, commodo eu eros eget, luctus luctus tellus. Pellentesque luctus purus et dapibus cursus. Pellentesque accumsan enim sollicitudin, pulvinar lorem eget, tempor odio. Morbi vitae quam at nunc laoreet tincidunt ut vitae ipsum. Proin nunc enim, maximus quis lacus vel, finibus auctor metus. Vivamus nec massa blandit, imperdiet augue ut, placerat ligula. Vivamus interdum auctor ligula, vel aliquam tortor tempus et. Sed ac erat nulla.
-        </p>
-        <p>
-  
-        </p>
+<ul>
+A few benefits from improving organizational diversity:
+  <li>1. Increased community involvement</li>
+  <li>2. Increased customer base</li>
+  <li>3. Unique experience for staff and customers</li>
+</ul>
 
-       <Link to="/contact">get in touch</Link>
+<p>We at STC believe that summer camp is a place where individuals from all walks of life should be able to learn how to be independence, work with others, and how to be their true selves. 
+
+We look forward to working with you and developing the foundation for diversity at your organization!</p> 
+<p>More about our <Link className ={styles.link}  to='/services'>Services</Link>.</p>
+            <img src={jamesSrc}></img>
         </section>
-        <aside className={styles.skills}>
-          <div>
-            <h3>Experience</h3>
-            <h4>Presentations</h4>
-            <p>blah blah blah</p>
-            <h4>In-Field</h4>
-            <p>Blah blah blah</p>
-          </div>
-
-        </aside>
-      </div>
 
       <section>
-        <h2>What people say</h2>
+        <h2>Testimonital</h2>
         <div className={styles.referrals}>
           <div className={styles.referral}>
-            <img src={lighthouseSrc} alt="Lighthouse logo" />
+            <img src={scottSrc} alt="Lighthouse logo" />
             <div>
               <h4>Scott Arizala</h4>
-              <p>“These guys are the bees knees”</p>
+              <h5>Founder of The Camp Counselor</h5>
+              <p>“”</p>
             </div>
           </div>
 
           <div className={styles.referral}>
-            <img src={inlightSrc} alt="Inlight logo" />
+            <img src={sylviaSrc} alt="Inlight logo" />
             <div>
               <h4>Silvia van Meerten</h4>
-              <p>“Cool cat certified :)”</p>
+              <h5>Founder of empower autism</h5>
+              <p>“”</p>
             </div>
           </div>
         </div>

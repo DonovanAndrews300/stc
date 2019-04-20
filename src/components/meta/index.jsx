@@ -3,6 +3,7 @@ import Helmet from 'react-helmet';
 import { siteMetadata as config } from '../../../gatsby-config';
 
 const Meta = props => {
+  const metaImage = `${config.image}`;
   const mainTitle = `${config.title}`;
   const metaTitle = props.title ? `${props.title} | ${mainTitle}` : mainTitle;
   const metaDescription = props.description || config.description;
@@ -12,6 +13,7 @@ const Meta = props => {
     { name: 'description', content: metaDescription },
     { name: 'og:title', content: metaTitle },
     { name: 'og:description', content: metaDescription },
+    { name:  'og:image', content: metaImage},
     { property: 'og:url', content: absoluteUrl },
     { name: 'twitter:title', content: metaTitle },
     { name: 'twitter:description', content: metaDescription },
