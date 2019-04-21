@@ -1,0 +1,27 @@
+@import '../../css/variables.css';
+.services {
+    display:flex;
+    flex-direction: row;
+    background:var(--secondary);
+  }
+
+  .intro {
+    width: calc(10 / var(--columnCount) * 100%);
+    padding-right: var(--gutter);
+    flex:2 0 0%;
+    font-size: 1.125rem;
+    line-height: 1.7;
+    padding-right: calc(1 / var(--columnCount) * 100%);
+  }
+
+
+
+.link {
+    border-bottom: 3px solid var(--lighttxt);
+  }
+
+li{
+    margin: 2px;
+}
+
+
