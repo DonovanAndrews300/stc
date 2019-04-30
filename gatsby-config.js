@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'See The Color',
-    image: './stc.png',
+    image: 'src/pages/img/stc.png',
     url: 'https://Seethecolor.com',
     description: 'See the color is an orginization focused on incresing diversity in childcare facilities.',
   },
