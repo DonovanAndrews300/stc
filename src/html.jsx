@@ -32,13 +32,6 @@ const Html = ({ body, headComponents, postBodyComponents }) => {
         {/* Meta */}
         {helmet.title.toComponent()}
         {helmet.meta.toComponent()}
-        <meta property="og:site_name" content={config.title} />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content={openGraphUrl} />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@" />
-        <meta name="twitter:creator" content="@" />
-        <meta property="twitter:image" content={openGraphUrl} />
 
         {/* Favicon */}
         <link rel="icon" type="image/png" sizes="32x32" href="/logo.png" />

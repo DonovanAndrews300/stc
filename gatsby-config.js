@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'See The Color',
     image: 'src/pages/img/stc.png',
-    url: 'https://Seethecolor.com',
+    url: 'https://seethecolor.com',
     description: 'See the color is an orginization focused on incresing diversity in childcare facilities.',
   },
   plugins: [

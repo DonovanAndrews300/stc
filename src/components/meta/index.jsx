@@ -10,8 +10,8 @@ const Meta = props => {
   const absoluteUrl = `${config.url}${props.location.pathname}`;
 
   const meta = [
-    { name: 'description', content: metaDescription },
-    { name: 'og:title', content: metaTitle },
+    { name: 'og:description', content: metaDescription },
+    { name: 'og:title', content: mainTitle },
     { name: 'og:description', content: metaDescription },
     { name:  'og:image', content: metaImage},
     { property: 'og:url', content: absoluteUrl },
