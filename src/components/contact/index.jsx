@@ -9,13 +9,12 @@ const Contact = ({ title }) => (
   <div className={styles.contact}>
     <h1>{title || 'Thanks for stopping by!'}</h1>
     <p className={styles.email}>
-      If you have any questions or would like a consultation, you can reach us through the contact info bellow.<br/>
-    <div className={styles.info}>
-      <ul>
-        <li>email:<a href="mailto:info@stc.com" className={styles.link}>info@stc.com</a></li>
-        <li>phone:</li>
-      </ul>
-    </div>
+      If you have any questions or would like a consultation, you can reach us through the contact info bellow.<br />
+      <div className={styles.info}>
+        <ul>
+          <li>email:<a href="mailto:seethecolorllc@gmail.com" className={styles.link}>seethecolorllc@gmail.com</a></li>
+        </ul>
+      </div>
 
     </p>
     <div className={styles.lineBreak} />
@@ -32,7 +31,7 @@ const Contact = ({ title }) => (
       </li>
     </ul>
     <div>
-      <img src={profileSrc} />
+      <img alt="" src={profileSrc} />
     </div>
   </div>
 );

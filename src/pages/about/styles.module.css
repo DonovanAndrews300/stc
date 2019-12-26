@@ -55,9 +55,6 @@
 }
 
 @media (--medium) {
-  .about {
-    margin-bottom: 3rem;
-  }
 
   .intro, .profile {
     width: calc(10 / var(--columnCount) * 100%);
@@ -85,10 +82,6 @@
 @media (--small) {
   .intro, .referral {
     width: calc(12 / var(--columnCount) * 100%);
-  }
-
-  .referral img {
-    display: none;
   }
 }
 
