@@ -11,6 +11,11 @@
   z-index: var(--zIndexHeader);
 }
 
+.navbar li{
+  margin:10px;
+  display:inline;
+}
+
 .inner {
   display: flex;
   align-items: center;
@@ -21,6 +26,7 @@
 .hamburger {
   position: relative;
   z-index: var(--zIndexHamburger);
+  display:none;
 }
 
 .title {
@@ -31,6 +37,14 @@
 @media (--small) {
   .title {
     font-size: 1.285rem;
+  }
+
+  .navbar{
+    display:none;
+  }
+
+  .hamburger{
+    display:inline;
   }
 
   .github {

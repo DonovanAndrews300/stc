@@ -3,6 +3,8 @@ import ContentPage from '../../components/content-page';
 import Meta from '../../components/meta';
 import Wrapper from '../../components/wrapper';
 import sylviaSrc from './img/sylvia.jpg';
+import tahirahSrc from './img/tahirah.png';
+import kurtzSrc from './img/kurtz.jpg';
 import scottSrc from './img/scott.jpg';
 import jamesSrc from './img/james.png';
 
@@ -28,17 +30,35 @@ A few benefits from improving organizational diversity:
           <li>3. Unique experience for staff and customers</li>
         </ul>
 
-        <p>We at STC believe that summer camp is a place where individuals from all walks of life should be able to learn how to be independence, work with others, and how to be their true selves.
+        <p>We at STC believe that summer camp is a place where individuals from all walks of life should be able to learn how to be independant, work with others, and how to be their true selves.
 
 We look forward to working with you and developing the foundation for diversity at your organization!
         </p>
         <p>More about our <Link className={styles.link} to="/services">Services</Link>.</p>
         <img src={jamesSrc} />
       </section>
-
-      <section>
+      {/*
+    <section>
         <h2>Testimonitals</h2>
         <div className={styles.referrals}>
+          <div className={styles.referral}>
+            <img src={kurtzSrc} alt="Sarah Kurtz McKinnon" />
+            <div>
+              <h4>Sarah Kurtz McKinnon</h4>
+              <h5 />
+              <p>“”</p>
+            </div>
+          </div>
+
+          <div className={styles.referral}>
+            <img src={tahirahSrc} alt="Tahirah Austin" />
+            <div>
+              <h4>Tahirah Austin</h4>
+              <h5 />
+              <p>“”</p>
+            </div>
+          </div>
+
           <div className={styles.referral}>
             <img src={scottSrc} alt="Scott Arizala" />
             <div>
@@ -52,12 +72,13 @@ We look forward to working with you and developing the foundation for diversity 
             <img src={sylviaSrc} alt="Sylvia van Meerten" />
             <div>
               <h4>Sylvia van Meerten</h4>
-              <h5>Founder of empower autism</h5>
+              <h5>Founder of Empower Autism</h5>
               <p>“”</p>
             </div>
           </div>
         </div>
       </section>
+       */}
     </Wrapper>
   </ContentPage>
 );

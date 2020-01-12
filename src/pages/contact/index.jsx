@@ -21,6 +21,7 @@ const Contact = ({ location }) => (
             <li>email:seethecolorllc@gmail.com</li>
           </ul>
           <div className={styles.lineBreak} />
+          {/*
           <ul className={styles.social}>
             <li>
               <OutboundLink to="https://www.facebook.com/STCDiversity/">
@@ -28,7 +29,7 @@ const Contact = ({ location }) => (
               </OutboundLink>
             </li>
             <li>
-              <OutboundLink to="https://www.instagram.com/stc/">
+              <OutboundLink to="https://www.facebook.com/STCDiversity/">
                 <Icon name="instagram" />
               </OutboundLink>
             </li>
@@ -37,7 +38,9 @@ const Contact = ({ location }) => (
                 <Icon name="youtube" />
               </OutboundLink>
             </li>
-          </ul>
+          </ul> 
+          */}
+          
 
         </div>
 
