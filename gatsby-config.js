@@ -3,7 +3,7 @@ module.exports = {
     title: 'See The Color',
     image: 'src/pages/img/stc.png',
     url: 'https://seethecolor.com',
-    description: 'See the color is an orginization focused on incresing diversity in childcare facilities.',
+    description: 'See the color is an orginization focused on incresing diversity and inclusion at camps.',
   },
   plugins: [
     {
@@ -12,5 +12,6 @@ module.exports = {
         trackingId: 'UA-42854706-1',
       },
     },
+    'gatsby-plugin-react-helmet',
   ],
 };

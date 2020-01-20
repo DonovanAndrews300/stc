@@ -5,14 +5,14 @@
     "email": "info@stc.com",
     "url": "https://seethecolor.com"
   },
-
   "dependencies": {
     "classnames": "^2.2.5",
     "gatsby": "^1.9.259",
     "gatsby-link": "^1.6.44",
     "gatsby-plugin-google-analytics": "^1.0.31",
+    "gatsby-plugin-react-helmet": "^3.1.21",
     "react-github-button": "^0.1.11",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
