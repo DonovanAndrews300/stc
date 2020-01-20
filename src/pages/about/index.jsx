@@ -1,14 +1,9 @@
 import React from 'react';
+import Link from 'gatsby-link';
 import ContentPage from '../../components/content-page';
 import Meta from '../../components/meta';
 import Wrapper from '../../components/wrapper';
-import sylviaSrc from './img/sylvia.jpg';
-import tahirahSrc from './img/tahirah.png';
-import kurtzSrc from './img/kurtz.jpg';
-import scottSrc from './img/scott.jpg';
 import jamesSrc from './img/james.png';
-
-import Link from 'gatsby-link';
 import styles from './styles.module.css';
 
 const About = ({ location }) => (

@@ -3,7 +3,7 @@ import classNames from 'classnames';
 
 import styles from './styles.module.css';
 
-const ContentPage = ({ ...props, children, className }) => (
+const ContentPage = ({children, className, ...props}) => (
   <section {...props} className={classNames(styles.content, className)}>
     {children}
   </section>
